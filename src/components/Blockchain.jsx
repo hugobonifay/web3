@@ -32,14 +32,12 @@ const Blockchain = () => {
       <p>Le fonctionnement repose sur plusieurs principes clés :</p>
 
       <h4>a) Les blocs</h4>
-      <p>
-        Chaque bloc contient :
-        <ul>
-          <li>Une liste de transactions ou d'enregistrements,</li>
-          <li>Une référence au bloc précédent (appelée "hash"),</li>
-          <li>Un horodatage (timestamp).</li>
-        </ul>
-      </p>
+      <p>Chaque bloc contient :</p>
+      <ul>
+        <li>Une liste de transactions ou d'enregistrements,</li>
+        <li>Une référence au bloc précédent (appelée "hash"),</li>
+        <li>Un horodatage (timestamp).</li>
+      </ul>
       <h4>b) Le hash (empreinte numérique)</h4>
       <p>
         Le hash est une fonction mathématique qui génère une "empreinte" unique
