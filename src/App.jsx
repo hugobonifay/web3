@@ -3,12 +3,14 @@ import Blockchain from "./components/Blockchain";
 import Nav from "./components/Nav";
 import { Route, Routes } from "react-router";
 import Web3 from "./components/Web3";
+import SmartContracts from "./components/SmartContracts";
 
 const Routing = () => {
   return (
     <Routes>
       <Route index path="/web3/" element={<Web3 />} />
-      <Route path="/web3/blockchain" element={<Blockchain />} />
+      <Route path="/web3/blockchain/" element={<Blockchain />} />
+      <Route path="/web3/smart-contracts/" element={<SmartContracts />} />
     </Routes>
   );
 };

@@ -3,6 +3,7 @@ import { NavLink, useLocation } from "react-router";
 const nav = [
   { label: "Web3.0", path: "/web3/" },
   { label: "Blockchain", path: "/web3/blockchain/" },
+  { label: "Smart Contracts", path: "/web3/smart-contracts/" },
 ];
 
 const Nav = () => {

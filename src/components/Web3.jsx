@@ -133,6 +133,69 @@ const Web3 = () => {
         <li>Consommation énergétique élevée de certaines blockchains.</li>
         <li>Régulations floues ou incertaines.</li>
       </ul>
+      <p>Résumé des différences :</p>
+      <div className="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <strong>Aspect</strong>
+              </th>
+              <th>
+                <strong>Web1</strong>
+              </th>
+              <th>
+                <strong>Web2</strong>
+              </th>
+              <th>
+                <strong>Web3</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <strong>Nature</strong>
+              </td>
+              <td>Lecture seule</td>
+              <td>Lecture-écriture</td>
+              <td>Lecture-écriture-propriété</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Interaction</strong>
+              </td>
+              <td>Passif</td>
+              <td>Actif et interactif</td>
+              <td>Propriété des données</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Technologie clé</strong>
+              </td>
+              <td>HTML statique</td>
+              <td>Plateformes centralisées</td>
+              <td>Blockchain et décentralisation</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Exemples</strong>
+              </td>
+              <td>Yahoo!, MSN</td>
+              <td>Facebook, YouTube, Instagram</td>
+              <td>Ethereum, OpenSea, Uniswap</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Contrôle des données</strong>
+              </td>
+              <td>Centralisé (webmasters)</td>
+              <td>Centralisé (grandes entreprises)</td>
+              <td>Décentralisé (utilisateurs)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </>
   );
 };
