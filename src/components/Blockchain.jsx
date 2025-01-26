@@ -1,12 +1,8 @@
 const Blockchain = () => {
   return (
     <>
-      <h2 style={{ textTransform: "uppercase", fontSize: 50 }}>Blockchain</h2>
-      <p
-        style={{
-          color: "grey",
-        }}
-      >
+      <h2>Blockchain</h2>
+      <p className="intro">
         La blockchain est une technologie de stockage et de transmission
         d'informations qui fonctionne comme un registre numérique décentralisé
         et sécurisé.
