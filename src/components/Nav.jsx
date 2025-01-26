@@ -4,6 +4,9 @@ const nav = [
   { label: "Web3.0", path: "/web3/" },
   { label: "Blockchain", path: "/web3/blockchain/" },
   { label: "Smart Contracts", path: "/web3/smart-contracts/" },
+  { label: "Solidity", path: "/web3/solidity/" },
+  { label: "dApps", path: "/web3/dapp/" },
+  { label: "Crypto Wallets", path: "/web3/crypto-wallets/" },
 ];
 
 const Nav = () => {

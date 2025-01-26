@@ -40,17 +40,18 @@ header {
   width: 100%;
   border-bottom: 1px solid;
   border-color: #434343;
-  background-color: #313131;
   z-index: 1000;
+  background-color: #242424d4;
+  backdrop-filter: blur(10px);
 }
 
 header nav {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
-  place-items: center;
   padding: 10px 0;
   overflow-x: auto;
+  white-space: nowrap;
 }
 
 header nav a {
@@ -159,4 +160,12 @@ table>tbody:not(:last-child),
 table>tfoot:not(:last-child) {
   border-bottom: 1px solid #434343;
   ;
+}
+
+pre {
+  padding: 5px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: auto;
+  border: 2px solid #434343;
 }
