@@ -138,19 +138,19 @@ table {
 
 table th {
   background-color: #313131;
-  padding: 5px;
   border-bottom: 2px solid #434343;
 }
 
-table td {
+table td,
+table th {
   padding: 5px;
+  text-align: left;
 }
 
 /* Apply a border to the right of all but the last column */
 table th:not(:last-child),
 table td:not(:last-child) {
   border-right: 1px solid #434343;
-  ;
 }
 
 /* Apply a border to the bottom of all but the last row */
